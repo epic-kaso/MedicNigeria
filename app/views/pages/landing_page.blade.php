@@ -83,7 +83,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <span class="fa fa-bullhorn fa-3x text-center"></span>
-                <h1>We are currently in private better</h1>
+                <h1>We are currently in private beta</h1>
                 <p>You can request an invitation to test our service.</p>
                 <!-- email text field -->
                 {{ Form::open() }}

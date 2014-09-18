@@ -124,7 +124,7 @@ return array(
         'Codesleeve\AssetPipeline\AssetPipelineServiceProvider',
         'Laracasts\Commander\CommanderServiceProvider',
         'Laracasts\Validation\ValidationServiceProvider',
-//        'Way\Generators\GeneratorsServiceProvider'
+        'Way\Generators\GeneratorsServiceProvider'
 	),
 
 	/*

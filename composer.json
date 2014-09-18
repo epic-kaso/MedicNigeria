@@ -11,7 +11,7 @@
         "laracasts/validation": "~1.0",
         "codesleeve/asset-pipeline": "dev-master"
 	},
-    "require": {
+    "require-dev": {
         "way/generators": "2.*",
         "codeception/codeception": "*"
     },
