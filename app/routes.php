@@ -14,17 +14,7 @@
 
 Route::get('/', function()
 {
-
-    Queue::push(function($job)
-    {
-        Mail::send('emails.default',['body'=>'hello kaso'],function($message){
-            $message->to('kasoprecede47@gmail.com');
-            $message->subject('Sent after 120 secs');
-        });
-        $job->delete();
-    });
-
-	return View::make('pages.landing_page');
+    return View::make('pages.landing_page');
 });
 
 
@@ -40,3 +30,14 @@ Route::get('/app', function()
 Route::get('/public/{any}/{another}',function($any,$another){
     return Redirect::to("/$any/$another");
 });
+
+    Route::get('/test-queue',function(){
+        Queue::push(function($job)
+        {
+            Mail::send('emails.default',['body'=>'hello kaso'],function($message){
+                $message->to('kasoprecede47@gmail.com');
+                $message->subject('Sent after 120 secs');
+            });
+            $job->delete();
+        });
+    });
