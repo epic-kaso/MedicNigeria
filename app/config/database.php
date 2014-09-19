@@ -60,10 +60,10 @@ Mysql Database      : landarstore
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'     => 'localhost',
-			'database' => 'forge',
-			'username' => 'forge',
-			'password' => 'ZngIVW1kSmTOfriCt1k3',
+			'host'      => 'landarstore.mysql.eu1.frbit.com',
+			'database'  => 'landarstore',
+			'username'  => 'landarstore',
+			'password'  => 'EODjUyariJ6GaooI',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

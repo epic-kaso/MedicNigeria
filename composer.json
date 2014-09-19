@@ -9,10 +9,12 @@
         "laracasts/presenter": "0.1.*",
         "laracasts/commander": "~1.0",
         "laracasts/validation": "~1.0",
-        "codesleeve/asset-pipeline": "dev-master"
+        "codesleeve/asset-pipeline": "dev-master",
+        "zizaco/confide": "~4.0@dev",
+        "zizaco/entrust": "1.2.*@dev",
+        "way/generators": "2.*"
 	},
     "require-dev": {
-        "way/generators": "2.*",
         "codeception/codeception": "*"
     },
 	"autoload": {

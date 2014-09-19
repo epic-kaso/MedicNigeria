@@ -11,12 +11,22 @@
 |
 */
 
+
 Route::get('/', function()
 {
 	return View::make('pages.landing_page');
 });
 
 
+Route::get('/app', function()
+{
+    return View::make('pages.index');
+});
+
+
+    /**
+     * Solve public folder assets problem
+     */
 Route::get('/public/{any}/{another}',function($any,$another){
     return Redirect::to("/$any/$another");
 });

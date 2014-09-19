@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "439aa67ef0e79a077a1e1e05663d1002",
+    "hash": "78653fb96dcba93b79dafa09b39e0c2f",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -682,6 +682,65 @@
                 "laravel"
             ],
             "time": "2014-09-15 02:45:24"
+        },
+        {
+            "name": "laravelbook/ardent",
+            "version": "v2.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravelbook/ardent.git",
+                "reference": "0a0238b8040abc1c71401ce27a8edf2619fa5bed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravelbook/ardent/zipball/0a0238b8040abc1c71401ce27a8edf2619fa5bed",
+                "reference": "0a0238b8040abc1c71401ce27a8edf2619fa5bed",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "~4.1",
+                "illuminate/support": "~4.1",
+                "illuminate/validation": "~4.1",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "LaravelBook\\Ardent": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Max Ehsan",
+                    "email": "contact@laravelbook.com",
+                    "homepage": "http://laravelbook.com/",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Igor Santos",
+                    "email": "igorsantos07+dev@gmail.com",
+                    "homepage": "http://www.igorsantos.com.br",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Self-validating smart models for Laravel 4's Eloquent O/RM",
+            "homepage": "http://laravelbook.com/",
+            "keywords": [
+                "Active Record",
+                "activerecord",
+                "database",
+                "eloquent",
+                "framework",
+                "laravel",
+                "orm",
+                "sql",
+                "validation"
+            ],
+            "time": "2014-02-25 20:39:04"
         },
         {
             "name": "leafo/lessphp",
@@ -2193,6 +2252,185 @@
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
             "time": "2014-09-03 09:00:14"
+        },
+        {
+            "name": "way/generators",
+            "version": "2.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JeffreyWay/Laravel-4-Generators.git",
+                "reference": "484d379c6bc1d38c75e4f52f74efcbcd11f7dd2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JeffreyWay/Laravel-4-Generators/zipball/484d379c6bc1d38c75e4f52f74efcbcd11f7dd2c",
+                "reference": "484d379c6bc1d38c75e4f52f74efcbcd11f7dd2c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~4.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "behat/behat": "~2.5.1",
+                "behat/mink": "~1.5.0",
+                "behat/mink-extension": "~1.2.0",
+                "behat/mink-goutte-driver": "~1.0.9",
+                "behat/mink-selenium2-driver": "~1.1.1",
+                "phpspec/phpspec": "~2.0",
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Way\\Generators": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@jeffrey-way.com",
+                    "homepage": "http://jeffrye-way.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Rapidly generate resources, migrations, models, and much more.",
+            "time": "2014-05-27 14:21:26"
+        },
+        {
+            "name": "zizaco/confide",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zizaco/confide.git",
+                "reference": "bdfbcff29e8d2f05b176a496da1c5544c7a04ea9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zizaco/confide/zipball/bdfbcff29e8d2f05b176a496da1c5544c7a04ea9",
+                "reference": "bdfbcff29e8d2f05b176a496da1c5544c7a04ea9",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~4.2",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/auth": "~4.2",
+                "illuminate/console": "~4.2",
+                "illuminate/database": "~4.2",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "~0.6"
+            },
+            "suggest": {
+                "zizaco/entrust": "add Role-based Permissions to Laravel 4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/migrations",
+                    "src/commands"
+                ],
+                "psr-4": {
+                    "Zizaco\\Confide\\": "src/Confide/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Elkins",
+                    "homepage": "http://www.andrewelkins.com"
+                },
+                {
+                    "name": "Zizaco Zizuini",
+                    "homepage": "http://www.zizaco.net"
+                }
+            ],
+            "description": "Confide is an authentication solution for Laravel 4",
+            "keywords": [
+                "auth",
+                "illuminate",
+                "laravel"
+            ],
+            "time": "2014-09-10 13:05:07"
+        },
+        {
+            "name": "zizaco/entrust",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zizaco/entrust.git",
+                "reference": "1194627e6c8f8b6f5789c5fed8d59e955bea1ccd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zizaco/entrust/zipball/1194627e6c8f8b6f5789c5fed8d59e955bea1ccd",
+                "reference": "1194627e6c8f8b6f5789c5fed8d59e955bea1ccd",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~4.0",
+                "laravelbook/ardent": "~2.4",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/database": "~4.0",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0",
+                "symfony/process": "~2.3"
+            },
+            "suggest": {
+                "zizaco/confide": "Confide is an authentication solution for Laravel 4 that couples very well with Entrust"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/commands"
+                ],
+                "psr-4": {
+                    "Zizaco\\Entrust\\": "src/Entrust/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Elkins",
+                    "homepage": "http://www.andrewelkins.com"
+                },
+                {
+                    "name": "Zizaco Zizuini",
+                    "email": "zizaco@gmail.com"
+                }
+            ],
+            "description": "This package provides a flexible way to add Role-based Permissions to Laravel 4",
+            "keywords": [
+                "auth",
+                "illuminate",
+                "laravel",
+                "roles"
+            ],
+            "time": "2014-08-05 03:28:50"
         }
     ],
     "packages-dev": [
@@ -3232,54 +3470,6 @@
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
             "time": "2014-08-31 03:22:04"
-        },
-        {
-            "name": "way/generators",
-            "version": "2.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JeffreyWay/Laravel-4-Generators.git",
-                "reference": "484d379c6bc1d38c75e4f52f74efcbcd11f7dd2c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JeffreyWay/Laravel-4-Generators/zipball/484d379c6bc1d38c75e4f52f74efcbcd11f7dd2c",
-                "reference": "484d379c6bc1d38c75e4f52f74efcbcd11f7dd2c",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "~4.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "behat/behat": "~2.5.1",
-                "behat/mink": "~1.5.0",
-                "behat/mink-extension": "~1.2.0",
-                "behat/mink-goutte-driver": "~1.0.9",
-                "behat/mink-selenium2-driver": "~1.1.1",
-                "phpspec/phpspec": "~2.0",
-                "phpunit/phpunit": "~3.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Way\\Generators": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jeffrey Way",
-                    "email": "jeffrey@jeffrey-way.com",
-                    "homepage": "http://jeffrye-way.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Rapidly generate resources, migrations, models, and much more.",
-            "time": "2014-05-27 14:21:26"
         }
     ],
     "aliases": [
@@ -3287,7 +3477,9 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "codesleeve/asset-pipeline": 20
+        "codesleeve/asset-pipeline": 20,
+        "zizaco/confide": 20,
+        "zizaco/entrust": 20
     },
     "prefer-stable": false,
     "platform": [

@@ -124,8 +124,11 @@ return array(
         'Codesleeve\AssetPipeline\AssetPipelineServiceProvider',
         'Laracasts\Commander\CommanderServiceProvider',
         'Laracasts\Validation\ValidationServiceProvider',
-        'Way\Generators\GeneratorsServiceProvider'
-	),
+        'Way\Generators\GeneratorsServiceProvider',
+        'Zizaco\Confide\ServiceProvider',
+        'Zizaco\Entrust\EntrustServiceProvider',
+
+    ),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -191,6 +194,8 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
+        'Confide'           => 'Zizaco\Confide\Facade',
+        'Entrust'           => 'Zizaco\Entrust\EntrustFacade',
 
 	),
 
