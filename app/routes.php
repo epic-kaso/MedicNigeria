@@ -14,6 +14,9 @@
 
 Route::get('/', function()
 {
+    Mail::send('emails.default',['body'=>'hello kaso'],function($job){
+       $job->to('kasoprecede47@gmail.com');
+    });
 	return View::make('pages.landing_page');
 });
 
