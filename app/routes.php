@@ -14,8 +14,9 @@
 
 Route::get('/', function()
 {
-    Mail::send('emails.default',['body'=>'hello kaso'],function($job){
+    Mail::later(120,'emails.default',['body'=>'hello kaso'],function($job){
        $job->to('kasoprecede47@gmail.com');
+        $job->subject('Sent after 120 secs');
     });
 	return View::make('pages.landing_page');
 });
