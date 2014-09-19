@@ -12,6 +12,7 @@
     <title>Medic Nigeria- find medical specialist near you</title>
 
     <?= stylesheet_link_tag() ?>
+    <link rel="stylesheet" href="{{ URL::asset('css/font-awesome-4.1.0/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/grayscale.min.css') }}">
      <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>

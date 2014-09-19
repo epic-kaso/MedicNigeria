@@ -10,6 +10,5 @@
  * but before any files alphabetically greater than 'application.css' 
  *
  *= require bootstrap.min.css
- *= require font-awesome-4.1.0/css/font-awesome.min.css
  *= require_tree .
  */
