@@ -14,10 +14,16 @@
 
 Route::get('/', function()
 {
-    Mail::later(120,'emails.default',['body'=>'hello kaso'],function($job){
-       $job->to('kasoprecede47@gmail.com');
-        $job->subject('Sent after 120 secs');
+
+    Queue::push(function($job)
+    {
+        Mail::send('emails.default',['body'=>'hello kaso'],function($message){
+            $message->to('kasoprecede47@gmail.com');
+            $message->subject('Sent after 120 secs');
+        });
+        $job->delete();
     });
+
 	return View::make('pages.landing_page');
 });
 
