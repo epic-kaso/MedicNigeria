@@ -1,0 +1,11 @@
+@media(min-width:767px) {
+    input.main-search-box{
+        height: 70px;
+        font-size: 28px;
+    }
+
+    form#main-search-form + a{
+        position: absolute;
+        bottom: -200px;
+    }
+}

@@ -1,4 +1,4 @@
-/*!
+/*
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -110,7 +110,7 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
-@media(min-width:767px) {
+@media( min-width:767px) {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -139,7 +139,7 @@ a:focus {
     text-align: center;
     color: #fff;
     text-shadow: 0 0 1em #000000;
-    background: url(../../../public/img/stethoscope.jpg) no-repeat bottom center scroll;
+    background: url(../img/stethoscope.jpg) no-repeat bottom center scroll;
     background-color: #ffffff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -159,7 +159,7 @@ a:focus {
     font-size: 18px;
 }
 
-@media(min-width:767px) {
+@media( min-width:767px ) {
     .intro {
         height: 100%;
         padding: 0;
@@ -175,7 +175,7 @@ a:focus {
     }
 }
 
-.btn-circle {
+.btn-circle{
     width: 70px;
     height: 70px;
     margin-top: 15px;
@@ -215,7 +215,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse{
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -257,7 +257,6 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -296,14 +295,28 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #219ab3;
+    border: 2px solid #219ab3;
     color: #219ab3;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #219ab3;
+    border: 2px solid #219ab3;
+    outline: 0;
+    color: #ffffff;
+    background-color: #219ab3;
+}
+
+.btn-search {
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.btn-search:hover,
+.btn-search:focus {
+    border: 3px solid #219ab3;
     outline: 0;
     color: #ffffff;
     background-color: #219ab3;
