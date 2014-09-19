@@ -12,7 +12,8 @@
         "codesleeve/asset-pipeline": "dev-master",
         "zizaco/confide": "~4.0@dev",
         "zizaco/entrust": "1.2.*@dev",
-        "way/generators": "2.*"
+        "way/generators": "2.*",
+        "pda/pheanstalk": "~3.0"
 	},
     "require-dev": {
         "codeception/codeception": "*"
